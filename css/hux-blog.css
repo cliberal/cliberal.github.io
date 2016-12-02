@@ -143,6 +143,7 @@ pre code {
   width: auto;
   white-space: pre;
   word-wrap: normal;
+  border: 0;
 }
 .post-container a {
   color: #337ab7;
@@ -656,7 +657,7 @@ form .row:first-child .floating-label-form-group {
   color: white;
 }
 .pager {
-  margin: 20px 0 0 !important;
+  margin: 0 0 30px !important;
   padding: 0px !important;
 }
 .pager li > a,
