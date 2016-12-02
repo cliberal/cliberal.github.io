@@ -562,6 +562,8 @@ footer {
   background-color: #333333;
   font-size: 20px;
   padding: 0px 0 65px;
+  position: absolute;
+  bottom: 0;
 }
 footer .list-inline {
   margin: 0;
