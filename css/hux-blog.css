@@ -137,6 +137,8 @@ hr.small {
 pre,
 .table-responsive {
   -webkit-overflow-scrolling: touch;
+  border: 0;
+  margin-bottom: 0;
 }
 pre code {
   display: block;
@@ -562,9 +564,7 @@ pre code {
 footer {
   background-color: #333333;
   font-size: 20px;
-  padding: 0px 0 65px;
-  position: absolute;
-  bottom: 0;
+  padding: 10px 0 10px;
 }
 footer .list-inline {
   margin: 0;

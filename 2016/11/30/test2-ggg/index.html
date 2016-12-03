@@ -47,7 +47,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
     <!-- ga & ba script hoook -->
     <script></script>
 </head>
@@ -201,7 +202,7 @@
 
                 <hr>
 
-                
+
 
                 <ul class="pager">
                     
@@ -213,8 +214,17 @@
                 </ul>
 
                 
-
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread"
+                        data-thread-key="2016/11/30/test2-ggg/"
+                        data-title="Hello World"
+                        data-url="http://cliberal.com/2016/11/30/test2-ggg/" >
+                    </div>
+                </div>
+                <!-- 多说评论框 end -->
                 
+
 
             </div>
     <!-- Side Catalog Container -->
@@ -225,7 +235,23 @@
 </article>
 
 
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User by Hux
+    var _user = 'cliberal';
 
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com//embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
 
 
 
@@ -371,8 +397,6 @@
 </script>
 
 <!-- Side Catalog -->
-
-
 
     
 </body>
